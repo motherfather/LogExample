@@ -1,4 +1,4 @@
-package kr.co.saramin.logexample3.controller;
+package com.bit2016.logexample3.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -21,7 +21,7 @@ public class ExampleController3 {
 		/**
 		 *  이 예제에서는 logback.xml 에서,
 		 *  
-		 *  1. fileAppender3 와 "kr.co.saramin.logexample3" logger 를 살펴 보아야 합니다.
+		 *  1. fileAppender3 와 "com.bit2016.logexample3" logger 를 살펴 보아야 합니다.
 		 *  
 		 *  2. fileAppender3 에서는 C:\LogExample\logexample3.log 로그파일 지정과
 		 *  
@@ -29,7 +29,7 @@ public class ExampleController3 {
 		 *     logexample3.log 파일이 생성되는 것을 확인해 봐야 합니다.
 		 *    
 		 *  4. 새로운 로거를 세팅하고 있습니다.
-		 *     "kr.co.saramin.logexample3" 로거인데, 콘솔과 파일로 로그를 남기고 있는 것을 확인해야
+		 *     "com.bit2016.logexample3" 로거인데, 콘솔과 파일로 로그를 남기고 있는 것을 확인해야
 		 *     합니다.
 		 *     
 		 *  5. 이 로거의 로그 레벨이 WARN 인 것도 로그 파일에서 확인해 보세요.   

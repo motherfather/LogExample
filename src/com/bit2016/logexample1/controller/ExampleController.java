@@ -1,4 +1,4 @@
-package kr.co.saramin.logexample1.controller;
+package com.bit2016.logexample1.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
